@@ -1,9 +1,19 @@
+.selectWrapper {
+    position: relative;
+}
+
 .select {
+    background: none;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
 }
 
 .select:focus {
+
 }
 
 
 .option:hover {
+
 }

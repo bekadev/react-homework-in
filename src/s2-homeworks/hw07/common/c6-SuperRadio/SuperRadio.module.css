@@ -1,15 +1,30 @@
 .radio {
-}
-
-.radio::before {
-}
-
-
-.radio:checked::before {
+    width: 1px;
+    height: 1px;
+    opacity: 0;
 }
 
 .label {
+    z-index: 5;
+    cursor: pointer;
 }
 
-.options {
+.span {
+    display: inline-block;
+    border: 1px solid #999999;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px 15px;
+    margin: 10px 10px 0 0;
 }
+
+.radio:checked + .span {
+    background-color: #FFE0A6;
+    color: #0059b3;
+}
+
+
+.options {
+
+}
+
