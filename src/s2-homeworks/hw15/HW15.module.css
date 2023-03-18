@@ -1,27 +1,29 @@
-.tech {
-    width: 50vw;
+.item {
+    border-top: 2px solid #E5E5E5;
+}
+
+.techDev {
+    border-collapse: collapse;
+}
+
+.container {
+    font-size: 18px;
+    width: 531px;
+}
+
+.thead {
+    background-color: #E5E5E5;
+    font-weight: 600;
 }
 
 .developer {
-
-}
-
-.techHeader {
-    width: 50vw;
-}
-
-.developerHeader {
-
-}
-
-.row {
     display: flex;
+    align-items: center;
+    column-gap: 5px;
+    padding: 10px 200px 10px 0px;
+
 }
 
-.rowHeader {
-    display: flex;
-}
-
-.loading {
+.tech {
 
 }
